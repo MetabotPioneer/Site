@@ -21,6 +21,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <body> 
     <script src="js/script.js"></script>
     <script src="https://app.metabot24.com/lib/jquery/js/jquery-3.4.1.min.js?v=2.36.0"></script>
+    <script> $(function () {
+                    sessionStorage.setItem('CUSTOM_EVENT_DATASET', JSON.stringify({
+                      "lang": detectLang(),
+                    }));
+                  });</script>
     <h1 align="center">Это тестовый сайт</h1>
 <p align="center">ТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекстТекст</p>
     <!-- Google Tag Manager (noscript) -->
