@@ -25,18 +25,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMZ985T5"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-      <div class="first">
-        <button class="open-service" data-href="https://app.metabot.com/test/chisp" data-title="Главная (без определения диплинка)" data-service="">Главная (без определения диплинка)</button>
-      </div>
-        <br>
-        <br>
-      <div class="second">
-        <button class="open-service" data-href="https://app.metabot.com/test/chisp/service1" data-title="test.chisp.service1" data-service="">Демо-бот</button>
-      </div>
-        <br>
-        <br>
-      <div class="third">
-        <button class="open-service" data-href="https://app.metabot.com/test/chisp/service2" data-title="test.chisp.service2" data-service="">Поддержка</button>
-      </div>
+    <div>
+      <script src="https://app.metabot24.com/lib/jquery/js/jquery-3.4.1.min.js?v=2.36.0">
+        $(function () {
+                    sessionStorage.setItem('CUSTOM_EVENT_DATASET', JSON.stringify({
+                      "lang": detectLang(),
+                    }));
+                  });
+        <div class="first">
+          <button class="open-service" data-href="https://app.metabot.com/test/chisp" data-title="Главная (без определения диплинка)" data-service="">Главная (без определения диплинка)</button>
+        </div>
+          <br>
+          <br>
+        <div class="second">
+          <button class="open-service" data-href="https://app.metabot.com/test/chisp/service1" data-title="test.chisp.service1" data-service="">Демо-бот</button>
+        </div>
+          <br>
+          <br>
+        <div class="third">
+          <button class="open-service" data-href="https://app.metabot.com/test/chisp/service2" data-title="test.chisp.service2" data-service="">Поддержка</button>
+        </div>
+      </script>
+    </div>
   </body>
 </html>
